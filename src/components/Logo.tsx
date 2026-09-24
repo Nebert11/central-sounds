@@ -9,13 +9,11 @@ export default function Logo({ variant = 'dark', className = '' }: LogoProps) {
   return (
     <Link
       to="/"
-      className={`group block w-[170px] sm:w-[190px] rounded-lg transition-transform duration-300 hover:scale-[1.02] ${
-        variant === 'light' ? 'bg-white px-2 py-1' : ''
-      } ${className}`}
+      className={`group block w-[170px] sm:w-[190px] transition-transform duration-300 hover:scale-[1.02] ${className}`}
       aria-label="Central Sounds home"
     >
       <img
-        src="/logo.png"
+        src={`${import.meta.env.BASE_URL}${variant === 'light' ? 'logo-light.png' : 'logo.png'}`}
         alt="Central Sounds — Your Sound, Our Passion"
         className="block w-full h-auto object-contain"
       />

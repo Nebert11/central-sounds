@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, MessageCircle, Headphones, ShieldCheck, Wrench, Headset, Volume2, Sliders, Mic2 } from 'lucide-react';
+import { ArrowRight, Headphones, ShieldCheck, Headset, Volume2 } from 'lucide-react';
 import Seo from '@/components/Seo';
 import CTASection from '@/components/CTASection';
 import ProductCard from '@/components/ProductCard';
-import { getFeaturedProducts } from '@/data/products';
-import { siteConfig, whatsappLink } from '@/config/site';
+import { categories as productCategories, getFeaturedProducts } from '@/data/products';
+import { siteConfig } from '@/config/site';
 
 const whyChooseUs = [
   {
@@ -29,13 +29,6 @@ const whyChooseUs = [
   },
 ];
 
-const categories = [
-  { icon: Volume2, label: 'Speakers' },
-  { icon: Sliders, label: 'Amplifiers' },
-  { icon: Mic2, label: 'Microphones' },
-  { icon: Headphones, label: 'DJ Equipment' },
-];
-
 export default function HomePage() {
   const featured = getFeaturedProducts().slice(0, 6);
 
@@ -56,8 +49,8 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" />
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
-          <div className="max-w-2xl">
+        <div className="relative max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
+          <div className="max-w-2xl ml-0 sm:ml-0 lg:ml-0 text-left">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 bg-[#E50914]/20 border border-[#E50914]/30 rounded-full">
               <span className="w-2 h-2 rounded-full bg-[#E50914] animate-pulse" />
               <span className="text-sm font-semibold text-white">Premium Audio Equipment</span>
@@ -78,23 +71,27 @@ export default function HomePage() {
                 Explore Products
                 <ArrowRight className="w-5 h-5" />
               </Link>
-              <a
-                href={whatsappLink('Hello Central Sounds, I would like to inquire about your products.')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-base font-semibold rounded-lg hover:bg-white/20 transition-all duration-200"
-              >
-                <MessageCircle className="w-5 h-5" />
-                WhatsApp Us
-              </a>
             </div>
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0A0A0A] to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 z-10 overflow-hidden bg-[#E50914] py-3">
+          <div className="hero-category-marquee flex w-max whitespace-nowrap">
+            {[...productCategories, ...productCategories].map((category, index) => (
+              <Link
+                key={`${category}-${index}`}
+                to={`/products?category=${encodeURIComponent(category)}`}
+                className="inline-flex items-center gap-6 px-6 text-sm font-bold uppercase tracking-[0.14em] text-white transition-colors hover:text-black sm:text-base"
+              >
+                <span>{category}</span>
+                <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-white/75" />
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
 
-      <section className="bg-[#0A0A0A] py-12 border-t border-white/5">
+      {/* <section className="bg-[#0A0A0A] py-12 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {categories.map((cat) => (
@@ -111,7 +108,7 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-16 lg:py-24 bg-[#F5F5F5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

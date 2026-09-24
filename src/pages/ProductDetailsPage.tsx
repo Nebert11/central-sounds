@@ -117,6 +117,21 @@ export default function ProductDetailsPage() {
                   ))}
                 </div>
               )}
+
+              <div className="pt-2">
+                <h3 className="text-sm font-bold text-black uppercase tracking-wider mb-3">Specifications</h3>
+                <div className="rounded-xl border border-gray-200 overflow-hidden">
+                  {product.specifications.map((spec, idx) => (
+                    <div
+                      key={spec.label}
+                      className={`flex justify-between px-4 py-3 text-sm ${idx % 2 === 0 ? 'bg-gray-50' : 'bg-white'}`}
+                    >
+                      <span className="font-medium text-gray-500">{spec.label}</span>
+                      <span className="font-semibold text-black text-right ml-4">{spec.value}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
 
             <div className="flex flex-col">
@@ -142,21 +157,6 @@ export default function ProductDetailsPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
-
-              <div className="mb-8">
-                <h3 className="text-sm font-bold text-black uppercase tracking-wider mb-3">Specifications</h3>
-                <div className="rounded-xl border border-gray-200 overflow-hidden">
-                  {product.specifications.map((spec, idx) => (
-                    <div
-                      key={spec.label}
-                      className={`flex justify-between px-4 py-3 text-sm ${idx % 2 === 0 ? 'bg-gray-50' : 'bg-white'}`}
-                    >
-                      <span className="font-medium text-gray-500">{spec.label}</span>
-                      <span className="font-semibold text-black">{spec.value}</span>
-                    </div>
-                  ))}
-                </div>
               </div>
 
               <div className="space-y-3 mt-auto">

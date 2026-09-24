@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import Logo from './Logo';
-import { siteConfig, whatsappLink } from '@/config/site';
+import { whatsappLink } from '@/config/site';
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -13,16 +13,8 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    onScroll();
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
 
   useEffect(() => {
     setMenuOpen(false);
@@ -36,28 +28,22 @@ export default function Navbar() {
   }, [menuOpen]);
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled || menuOpen
-          ? 'bg-white shadow-md'
-          : 'bg-white/95 backdrop-blur-sm'
-      }`}
-    >
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
-          <Logo />
+    <header className="fixed inset-x-0 top-2 z-50 bg-transparent px-3 py-1 sm:px-5 sm:py-2">
+      <nav className="mx-auto w-full max-w-[1760px] rounded-[2.5rem] border border-zinc-600/80 bg-[#101012]/80 shadow-[0_16px_35px_rgba(0,0,0,0.4)] backdrop-blur-md min-[1440px]:w-[60vw]">
+        <div className="flex h-[48px] items-center justify-between px-5 sm:px-8 min-[1440px]:h-[64px] min-[1440px]:px-12">
+          <Logo variant="light" className="w-[96px] sm:w-[112px] min-[1440px]:w-[130px]" />
 
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden min-[1440px]:flex min-[1440px]:items-center min-[1440px]:gap-6">
             {navLinks.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
                 end={link.to === '/'}
                 className={({ isActive }) =>
-                  `px-4 py-2 text-sm font-semibold rounded-lg transition-colors duration-200 ${
+                  `px-2 py-2 text-sm font-bold uppercase tracking-[0.14em] transition-colors duration-200 ${
                     isActive
-                      ? 'text-[#E50914]'
-                      : 'text-gray-700 hover:text-[#E50914]'
+                      ? 'text-white'
+                      : 'text-zinc-500 hover:text-white'
                   }`
                 }
               >
@@ -66,20 +52,20 @@ export default function Navbar() {
             ))}
           </div>
 
-          <div className="hidden lg:flex items-center">
+          <div className="hidden min-[1440px]:flex min-[1440px]:items-center">
             <a
               href={whatsappLink('Hello Central Sounds, I would like to inquire about your products and services.')}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-2.5 bg-[#E50914] text-white text-sm font-semibold rounded-lg hover:bg-[#c40812] transition-colors duration-200 shadow-sm hover:shadow-md"
+              className="flex min-h-[52px] items-center gap-1 rounded-lg bg-[#e40024] px-4 text-xs font-bold uppercase tracking-[0.10em] text-white transition-colors duration-200 hover:bg-[#bd001d]"
             >
-              <MessageCircle className="w-4 h-4" />
-              WhatsApp Us
+              {/* <MessageCircle className="w-4 h-4" /> */}
+              Talk To Us
             </a>
           </div>
 
           <button
-            className="lg:hidden p-2 text-black"
+            className="p-2 text-white min-[1440px]:hidden"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label={menuOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={menuOpen}
@@ -90,11 +76,11 @@ export default function Navbar() {
       </nav>
 
       <div
-        className={`lg:hidden overflow-hidden transition-all duration-300 ${
-          menuOpen ? 'max-h-[500px] border-t border-gray-100' : 'max-h-0'
+        className={`overflow-hidden transition-all duration-300 min-[1440px]:hidden ${
+          menuOpen ? 'max-h-[500px] border-t border-zinc-700' : 'max-h-0'
         }`}
       >
-        <div className="px-4 sm:px-6 py-4 space-y-1 bg-white">
+        <div className="space-y-1 bg-[#101012] px-4 py-4 sm:px-6">
           {navLinks.map((link) => (
             <NavLink
               key={link.to}
@@ -103,8 +89,8 @@ export default function Navbar() {
               className={({ isActive }) =>
                 `block px-4 py-3 text-base font-semibold rounded-lg transition-colors duration-200 ${
                   isActive
-                    ? 'text-[#E50914] bg-red-50'
-                    : 'text-gray-700 hover:text-[#E50914] hover:bg-gray-50'
+                    ? 'bg-zinc-800 text-white'
+                    : 'text-zinc-400 hover:bg-zinc-800 hover:text-white'
                 }`
               }
             >
@@ -115,10 +101,10 @@ export default function Navbar() {
             href={whatsappLink('Hello Central Sounds, I would like to inquire about your products and services.')}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-5 py-3 mt-2 bg-[#E50914] text-white text-base font-semibold rounded-lg hover:bg-[#c40812] transition-colors duration-200"
+            className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-[#e40024] px-5 py-3 text-base font-bold text-white transition-colors duration-200 hover:bg-[#bd001d]"
           >
             <MessageCircle className="w-5 h-5" />
-            WhatsApp Us
+            Talk To Us
           </a>
         </div>
       </div>

@@ -14,7 +14,7 @@ import NotFoundPage from '@/pages/NotFoundPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen bg-white">
         <Navbar />

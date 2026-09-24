@@ -11,6 +11,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@keyframes hero-category-marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.hero-category-marquee {
+  animation: hero-category-marquee 28s linear infinite;
+}
+
+.hero-category-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-category-marquee {
+    animation: none;
+  }
+}
+
 @layer utilities {
   .line-clamp-2 {
     display: -webkit-box;
