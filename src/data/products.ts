@@ -1,3 +1,5 @@
+import { importedProducts } from './importedProducts';
+
 export interface Product {
   id: string;
   name: string;
@@ -25,9 +27,15 @@ export const categories = [
   'Cables & Connectors',
   'Guitars & Bass',
   'Wind Instruments',
+  'Crossovers',
+  'Tweeters',
+  'Percussion',
+  'String Instruments',
+  'Stage & Lighting',
+  'Studio Equipment',
 ];
 
-export const products: Product[] = [
+const baseProducts: Product[] = [
   {
     id: 'ailyons-lg1240k',
     name: 'AILYONS LG1240K Bluetooth Party Speaker with 2 Wireless Microphones',
@@ -1292,6 +1300,19 @@ export const products: Product[] = [
     featured: false,
     relatedProducts: [],
   },
+];
+
+const normalizeProductName = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const productNames = new Set(baseProducts.map((product) => normalizeProductName(product.name)));
+
+export const products: Product[] = [
+  ...baseProducts,
+  ...importedProducts.filter((product) => {
+    const normalizedName = normalizeProductName(product.name);
+    if (productNames.has(normalizedName)) return false;
+    productNames.add(normalizedName);
+    return true;
+  }),
 ];
 
 export function getProductById(id: string): Product | undefined {

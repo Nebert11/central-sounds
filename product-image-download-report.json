@@ -1,0 +1,1199 @@
+{
+  "workbook": "/Users/Nebert.Kuria/Downloads/avenue_sounds_city_sounds_product_catalogue_with_product_urls.xlsx",
+  "matched_imported_records": 104,
+  "fallback_targets": 102,
+  "skipped_non_fallback": 2,
+  "unmatched_titles": [
+    "EV E115 15\\"
+  ],
+  "results": [
+    {
+      "product_id": "18inch-bass-speaker-cabinet",
+      "title": "18inch bass speaker cabinet",
+      "source_url": "https://avenuesounds.co.ke/product/18inch-bass-speaker-cabinet/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "4-4-full-size-acoustic-cello-kit-complete-beginner-bundle",
+      "title": "4/4 Full Size Acoustic Cello Kit - Complete Beginner Bundle",
+      "source_url": "https://www.citysounds.co.ke/product/4-4-full-size-acoustic-cello-kit-complete-beginner-bundle/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/4-4-full-size-acoustic-cello-kit-complete-beginner-bundle-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "alesis-v49-mkii-professional-midi-controller",
+      "title": "Alesis V49 MKII Professional MIDI Controller",
+      "source_url": "https://www.citysounds.co.ke/product/alesis-v49-mkii-professional-midi-controller/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/alesis-v49-mkii-professional-midi-controller-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "alice-atb002-double-ring-tambourine-pro-percussion-nairobi",
+      "title": "Alice ATB002 Double Ring Tambourine - Pro Percussion Nairobi",
+      "source_url": "https://www.citysounds.co.ke/product/alice-atb002-double-ring-tambourine-pro-percussion-nairobi/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/alice-atb002-double-ring-tambourine-pro-percussion-nairobi-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "allen-heath-gl2400-professional-analog-live-sound-mixer",
+      "title": "Allen & Heath GL2400 Professional Analog Live Sound Mixer",
+      "source_url": "https://avenuesounds.co.ke/product/allen-and-heath-gl2400-professional-analog-live-sound-mixer/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "allen-heath-zed-22-compact-dj-mixing-console",
+      "title": "Allen & Heath ZED-22 Compact DJ Mixing Console",
+      "source_url": "https://www.citysounds.co.ke/product/allen-and-heath-zed-22-compact-dj-mixing-console/",
+      "downloaded_files": [
+        "public/mixers/yamaha-tf5-digital-mixer.jpg/allen-heath-zed-22-compact-dj-mixing-console-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "apex-dbq-zero-eq",
+      "title": "Apex dBQ-zero EQ",
+      "source_url": "https://www.citysounds.co.ke/product/apex-dbq-zero-eq/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/apex-dbq-zero-eq-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "b-c-de250-8-neodymium-12inch-speaker",
+      "title": "B&C DE250-8 neodymium 12inch speaker",
+      "source_url": "https://avenuesounds.co.ke/product/b-and-c-de250-8-neodymium-12inch-speaker/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "behringer-ep4000-europower",
+      "title": "Behringer EP4000 EUROPOWER",
+      "source_url": "https://www.citysounds.co.ke/product/behringer-ep4000-europower/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/behringer-ep4000-europower-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "behringer-powerplay-ha8000",
+      "title": "Behringer POWERPLAY HA8000",
+      "source_url": "https://www.citysounds.co.ke/product/behringer-powerplay-ha8000/",
+      "downloaded_files": [
+        "public/head-gears/gear1.png/behringer-powerplay-ha8000-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "behringer-s32-32-input-16-output-digital-stage-box",
+      "title": "Behringer S32 32-input 16-output Digital Stage Box",
+      "source_url": "https://www.citysounds.co.ke/product/behringer-s32-32-input-16-output-digital-stage-box/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/behringer-s32-32-input-16-output-digital-stage-box-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "behringer-swing-midi-keyboard-controller",
+      "title": "Behringer Swing MIDI Keyboard Controller",
+      "source_url": "https://www.citysounds.co.ke/product/behringer-swing-midi-keyboard-controller/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/behringer-swing-midi-keyboard-controller-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "behringer-ultravoice-xm1800s-3-pack-dynamic-microphones",
+      "title": "Behringer Ultravoice XM1800S | 3-Pack Dynamic Microphones",
+      "source_url": "https://avenuesounds.co.ke/product/behringer-ultravoice-xm1800s-3-pack-dynamic-microphones/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "bm-audio-15bm-20-15-inch-800w-professional-mid-bass-woofer",
+      "title": "BM Audio 15BM-20 15-inch 800W Professional Mid-Bass Woofer",
+      "source_url": "https://avenuesounds.co.ke/product/bm-audio-15bm-20-15-inch-800w-professional-mid-bass-woofer/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "bnk-bk-802-dual-channel-vhf-wireless-microphone-system",
+      "title": "BNK BK-802 dual-channel VHF wireless microphone system.",
+      "source_url": "https://avenuesounds.co.ke/product/bnk-bk-802-dual-channel-vhf-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "bnk-bk-901-vhf-dual-channel-wireless-microphone-system",
+      "title": "BNK BK-901 VHF Dual Channel Wireless Microphone system.",
+      "source_url": "https://avenuesounds.co.ke/product/bnk-bk-901-vhf-dual-channel-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "bnk-bk8400-wireless-microphone-system-4-channel-uhf-set",
+      "title": "BNK BK8400 Wireless Microphone System | 4-Channel UHF Set",
+      "source_url": "https://avenuesounds.co.ke/product/bnk-bk8400-wireless-microphone-system-4-channel-uhf-set/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "bnk-bk9-professional-wireless-microphone-system",
+      "title": "BNK BK9 professional wireless microphone system.",
+      "source_url": "https://avenuesounds.co.ke/product/bnk-bk9-professional-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "bnk-dh-744-wireless-microphone-system",
+      "title": "Bnk DH-744 wireless microphone system.",
+      "source_url": "https://avenuesounds.co.ke/product/bnk-dh-744-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "bnk-es400-uhf-digital-4-channel-wireless-microphone-system",
+      "title": "BNK ES400 UHF Digital 4 Channel Wireless Microphone System",
+      "source_url": "https://avenuesounds.co.ke/product/bnk-es400-uhf-digital-4-channel-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "bnk-x75l-professional-uhf-digital-wireless-microphone-system",
+      "title": "BNK X75L Professional UHF Digital Wireless Microphone System",
+      "source_url": "https://avenuesounds.co.ke/product/bnk-x75l-professional-uhf-digital-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "caf-audio-line-array-speaker-system",
+      "title": "CAF Audio line array speaker system",
+      "source_url": "https://avenuesounds.co.ke/product/caf-audio-line-array-speaker-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "dbx-223-crossover",
+      "title": "DBX 223 Crossover",
+      "source_url": "https://www.citysounds.co.ke/product/dbx-223-crossover/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/dbx-223-crossover-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "dbx-234-crossover",
+      "title": "DBX 234 Crossover",
+      "source_url": "https://www.citysounds.co.ke/product/dbx-234-crossover/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/dbx-234-crossover-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "dbx-driverack-260-loudspeaker-management-system",
+      "title": "dbx DriveRack 260 Loudspeaker Management System",
+      "source_url": "https://avenuesounds.co.ke/product/dbx-driverack-260-loudspeaker-management-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "dbx-driverack-venu360-loudspeaker-management-system-pro-audio-processor",
+      "title": "DBX DriveRack VENU360 Loudspeaker Management System | Pro Audio Processor",
+      "source_url": "https://avenuesounds.co.ke/product/dbx-driverack-venu360-loudspeaker-management-system-pro-audio-processor/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "derwel-12wk401-professional-800w-stage-speaker-driver",
+      "title": "Derwel 12WK401 Professional 800W Stage Speaker Driver",
+      "source_url": "https://avenuesounds.co.ke/product/derwel-12wk401-professional-800w-stage-speaker-driver/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "derwel-15ah153-professional-mid-bass-loudspeaker-driver-600w-8-ohm",
+      "title": "Derwel 15AH153 Professional Mid-Bass Loudspeaker Driver - 600W 8-Ohm",
+      "source_url": "https://avenuesounds.co.ke/product/derwel-15ah153-professional-mid-bass-loudspeaker-driver-600w-8-ohm/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "derwel-pd1880-18-inch-2000w-professional-loudspeaker-subwoofer-bass-driver",
+      "title": "Derwel PD1880 18-Inch 2000W Professional Loudspeaker Subwoofer Bass Driver",
+      "source_url": "https://avenuesounds.co.ke/product/derwel-pd1880-18-inch-2000w-professional-loudspeaker-subwoofer-bass-driver/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "dual-wireless-lavalier-microphone-for-iphone-android-camera",
+      "title": "Dual Wireless Lavalier Microphone for iPhone, Android & Camera",
+      "source_url": "https://avenuesounds.co.ke/product/dual-wireless-lavalier-microphone-for-iphone-android-and-camera/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "f225dk-full-range-crossover",
+      "title": "F225DK Full Range Crossover",
+      "source_url": "https://www.citysounds.co.ke/product/f225dk-full-range-crossover/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/f225dk-full-range-crossover-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "fog-machine-1500-watt-with-6-led-lights",
+      "title": "Fog Machine 1500 Watt with 6 LED Lights",
+      "source_url": "https://www.citysounds.co.ke/product/fog-machine-1500-watt-with-6-led-lights/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/fog-machine-1500-watt-with-6-led-lights-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "gubi-juakali-custom-amplifier-bluetooth-usb-fm",
+      "title": "GUBI Juakali Custom Amplifier - Bluetooth USB FM",
+      "source_url": "https://www.citysounds.co.ke/product/gubi-juakali-custom-amplifier-bluetooth-usb-fm/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/gubi-juakali-custom-amplifier-bluetooth-usb-fm-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "ibanez-padded-bags",
+      "title": "Ibanez Padded Bags",
+      "source_url": "https://www.citysounds.co.ke/product/ibanez-padded-bags/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/ibanez-padded-bags-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "jbl-8-ohm-compression-tweeter-driver-80w-150w-pro-audio-speaker-replacement",
+      "title": "JBL 8-Ohm Compression Tweeter Driver | 80W-150W Pro Audio Speaker Replacement",
+      "source_url": "https://avenuesounds.co.ke/product/jbl-8-ohm-compression-tweeter-driver-80w-150w-pro-audio-speaker-replacement/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "jbl-complete-pa-system-with-mixer",
+      "title": "Jbl complete pa system with mixer",
+      "source_url": "https://avenuesounds.co.ke/product/jbl-complete-pa-system-with-mixer/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "jbl-prx2200-dual-wireless-microphone-system-uhf-handheld-mic-set",
+      "title": "JBL PRX2200 Dual Wireless Microphone System | UHF Handheld Mic Set",
+      "source_url": "https://avenuesounds.co.ke/product/jbl-prx2200-dual-wireless-microphone-system-uhf-handheld-mic-set/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "jbl-urx-9900-professional-wireless-microphone-system",
+      "title": "JBL URX 9900 professional wireless microphone system.",
+      "source_url": "https://avenuesounds.co.ke/product/jbl-urx-9900-professional-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "jbl-vm860-dual-channel-wireless-microphone-system-professional-audio",
+      "title": "JBL VM860 Dual-Channel Wireless Microphone System | Professional Audio",
+      "source_url": "https://avenuesounds.co.ke/product/jbl-vm860-dual-channel-wireless-microphone-system-professional-audio/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "m-audio-bx-d2-powered-studio-monitors-for-pro-mixing",
+      "title": "M-Audio BX D2 Powered Studio Monitors for Pro Mixing",
+      "source_url": "https://www.citysounds.co.ke/product/m-audio-bx-d2-powered-studio-monitors-for-pro-mixing/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/m-audio-bx-d2-powered-studio-monitors-for-pro-mixing-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "m-audio-keystation-61-mk3",
+      "title": "M-Audio Keystation 61 MK3",
+      "source_url": "https://www.citysounds.co.ke/product/m-audio-keystation-61-mk3/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/m-audio-keystation-61-mk3-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "m-track-hkx-12-12-channel-powered-mixer-with-flight-case",
+      "title": "M-Track HKX-12 12-Channel Powered Mixer with Flight Case",
+      "source_url": "https://avenuesounds.co.ke/product/m-track-hkx-12-12-channel-powered-mixer-with-flight-case/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "marshall-as50d",
+      "title": "Marshall AS50D",
+      "source_url": "https://avenuesounds.co.ke/product/marshall-as50d/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "marshall-vba-400",
+      "title": "Marshall VBA 400",
+      "source_url": "https://www.citysounds.co.ke/product/marshall-vba-400/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/marshall-vba-400-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "max-audio-pmx12-powered-mixer-12-channel-bluetooth-amplifier",
+      "title": "Max Audio PMX12 Powered Mixer | 12-Channel Bluetooth Amplifier",
+      "source_url": "https://avenuesounds.co.ke/product/max-audio-pmx12-powered-mixer-12-channel-bluetooth-amplifier/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "morgan-sound-39-2-power-amplifier",
+      "title": "Morgan Sound 39.2 Power Amplifier",
+      "source_url": "https://avenuesounds.co.ke/product/morgan-sound-39-2-power-amplifier/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "morgan-sound-class-h-professional-power-amplifier-with-dual-channel-graphic-equalizer-and-crossover",
+      "title": "Morgan Sound Class H Professional Power Amplifier with Dual Channel Graphic Equalizer and Crossover",
+      "source_url": "https://avenuesounds.co.ke/product/morgan-sound-class-h-professional-power-amplifier-with-dual-channel-graphic-equalizer-and-crossover/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "nexo-compact-passive-line-array-speakers-set-premium-sound",
+      "title": "NEXO Compact Passive Line Array Speakers Set | Premium Sound",
+      "source_url": "https://avenuesounds.co.ke/product/nexo-compact-passive-line-array-speakers-set-premium-sound/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "nexo-complete-pa-system-eith-mixer",
+      "title": "Nexo Complete Pa system eith mixer",
+      "source_url": "https://avenuesounds.co.ke/product/nexo-complete-pa-system-eith-mixer/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "numark-mixtrack-pro-fx",
+      "title": "Numark Mixtrack Pro FX",
+      "source_url": "https://www.citysounds.co.ke/product/numark-mixtrack-pro-fx/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/numark-mixtrack-pro-fx-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "nux-might-40bt-lead-guitar-amp",
+      "title": "Nux Might 40Bt Lead Guitar Amp",
+      "source_url": "https://avenuesounds.co.ke/product/nux-might-40bt-lead-guitar-amp/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "omax-16-channels-powered-mixer",
+      "title": "Omax 16 channels powered mixer",
+      "source_url": "https://avenuesounds.co.ke/product/omax-16-channels-powered-mixer/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "peavey-44xt-titanium-compression-driver-8-ohm-2-inch",
+      "title": "Peavey 44XT Titanium Compression Driver | 8 Ohm 2-Inch",
+      "source_url": "https://avenuesounds.co.ke/product/peavey-44xt-titanium-compression-driver-8-ohm-2-inch/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "peavey-cs-2000-professional-stereo-power-amplifier-reliable-live-sound",
+      "title": "Peavey CS 2000 Professional Stereo Power Amplifier | Reliable Live Sound",
+      "source_url": "https://avenuesounds.co.ke/product/peavey-cs-2000-professional-stereo-power-amplifier-reliable-live-sound/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "peavey-kb-5-150w-2x10-keyboard-amp",
+      "title": "Peavey KB 5  150W 2x10 Keyboard Amp",
+      "source_url": "https://avenuesounds.co.ke/product/peavey-kb-5-150w-2x10-keyboard-amp/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "peavey-pv-115-15-inch-2-way-passive-pa-speakers-pair",
+      "title": "Peavey PV 115 15-Inch 2-Way Passive PA Speakers (Pair)",
+      "source_url": "https://avenuesounds.co.ke/product/peavey-pv-115-15-inch-2-way-passive-pa-speakers-pair/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "pioneer-ddj-rev1",
+      "title": "Pioneer DDJ Rev1",
+      "source_url": "https://www.citysounds.co.ke/product/pioneer-ddj-rev1/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/pioneer-ddj-rev1.jpg",
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/pioneer-ddj-rev1-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": []
+    },
+    {
+      "product_id": "portable-folding-sheet-music-stand-with-tripod-base-and-carrying-bag",
+      "title": "Portable Folding Sheet Music Stand with Tripod Base and Carrying Bag",
+      "source_url": "https://www.citysounds.co.ke/product/portable-folding-sheet-music-stand-with-tripod-base-and-carrying-bag/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/portable-folding-sheet-music-stand-with-tripod-base-and-carrying-bag-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "power-sound-standard-td4800-power-amplifier",
+      "title": "Power Sound Standard TD4800 Power Amplifier",
+      "source_url": "https://avenuesounds.co.ke/product/power-sound-standard-td4800-power-amplifier/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "premium-live-sound-system-kit-with-8-channel-mixer-wireless-mic",
+      "title": "Premium Live Sound System Kit with 8-Channel Mixer & Wireless Mic",
+      "source_url": "https://avenuesounds.co.ke/product/premium-live-sound-system-kit-with-8-channel-mixer-and-wireless-mic/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "professional-24-inch-ukulele",
+      "title": "Professional 24 inch Ukulele",
+      "source_url": "https://www.citysounds.co.ke/product/professional-24-inch-ukulele/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/professional-24-inch-ukulele.jpg",
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/professional-24-inch-ukulele-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": []
+    },
+    {
+      "product_id": "professional-church-pa-sound-system-with-midrange-speakers-subwoofer-wireless-microphones",
+      "title": "Professional Church PA Sound System with Midrange Speakers, Subwoofer & Wireless Microphones",
+      "source_url": "https://avenuesounds.co.ke/product/professional-church-pa-sound-system-with-midrange-speakers-subwoofer-and-wireless-microphones/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "professional-live-sound-system-package",
+      "title": "Professional Live Sound System Package",
+      "source_url": "https://avenuesounds.co.ke/product/professional-live-sound-system-package/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "professional-pa-event-sound-system-package-qsc-bnk-audio-combo",
+      "title": "Professional PA Event Sound System Package | QSC & BNK Audio Combo",
+      "source_url": "https://avenuesounds.co.ke/product/professional-pa-event-sound-system-package-qsc-and-bnk-audio-combo/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "professional-portable-pa-sound-system-package-with-mixer-wireless-microphone-and-dual-15-inch-speakers",
+      "title": "Professional Portable PA Sound System Package with Mixer, Wireless Microphone and Dual 15 Inch Speakers",
+      "source_url": "https://avenuesounds.co.ke/product/professional-portable-pa-sound-system-package-with-mixer-wireless-microphone-and-dual-15-inch-speakers/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "professional-sound-system-package-4-nexo-speakers-max-mixer",
+      "title": "Professional Sound System Package: 4 Nexo Speakers & Max Mixer",
+      "source_url": "https://avenuesounds.co.ke/product/professional-sound-system-package-4-nexo-speakers-and-max-mixer/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "professional-soundking-pa-system-with-4-channel-powered-mixer",
+      "title": "Professional Soundking PA System with 4-Channel Powered Mixer",
+      "source_url": "https://avenuesounds.co.ke/product/professional-soundking-pa-system-with-4-channel-powered-mixer/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "qsc-rmx-850-power-amplifier",
+      "title": "QSC RMX 850 Power Amplifier",
+      "source_url": "https://avenuesounds.co.ke/product/qsc-rmx-850-power-amplifier/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "qsc-rmx-series-qsc-1450-power-amplifier",
+      "title": "QSC RMX Series QSC 1450 Power Amplifier",
+      "source_url": "https://avenuesounds.co.ke/product/qsc-rmx-series-qsc-1450-power-amplifier/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "qsc-rmx-series-rmx-2450-power-amplifier",
+      "title": "QSC RMX Series RMX 2450 Power Amplifier",
+      "source_url": "https://avenuesounds.co.ke/product/qsc-rmx-series-rmx-2450-power-amplifier/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "qsc-rmx-series-rmx4050md-power-amplifier",
+      "title": "QSC RMX Series RMX4050MD Power Amplifier",
+      "source_url": "https://avenuesounds.co.ke/product/qsc-rmx-series-rmx4050md-power-amplifier/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "rcf-12-inch-pro-midrange-speaker-driver-high-power-mid-bass-component",
+      "title": "RCF 12-Inch Pro Midrange Speaker Driver | High-Power Mid-Bass Component",
+      "source_url": "https://avenuesounds.co.ke/product/rcf-12-inch-pro-midrange-speaker-driver-high-power-mid-bass-component/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "sennheiser-evolution-g4-e100-e835",
+      "title": "Sennheiser Evolution G4 e100 e835",
+      "source_url": "https://www.citysounds.co.ke/product/sennheiser-evolution-g4-e100-e835/",
+      "downloaded_files": [
+        "public/microphones/bnk-b3-professional-microphone.jpg/sennheiser-evolution-g4-e100-e835-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "sennheiser-evolution-g4-vocal-set-ew-100-g935",
+      "title": "Sennheiser Evolution G4 Vocal Set EW 100 G935",
+      "source_url": "https://www.citysounds.co.ke/product/sennheiser-evolution-g4-vocal-set-ew-100-g935/",
+      "downloaded_files": [
+        "public/microphones/bnk-b3-professional-microphone.jpg/sennheiser-evolution-g4-vocal-set-ew-100-g935-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "sennheiser-ew-300-935-g4-wireless-vocal-set",
+      "title": "Sennheiser EW 300-935 G4 Wireless Vocal Set",
+      "source_url": "https://www.citysounds.co.ke/product/sennheiser-ew-300-935-g4-wireless-vocal-set/",
+      "downloaded_files": [
+        "public/microphones/bnk-b3-professional-microphone.jpg/sennheiser-ew-300-935-g4-wireless-vocal-set-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "sennheiser-ew-500-945-g4-wireless-vocal-set",
+      "title": "Sennheiser EW 500-945 G4 Wireless Vocal Set",
+      "source_url": "https://www.citysounds.co.ke/product/sennheiser-ew-500-945-g4-wireless-vocal-set/",
+      "downloaded_files": [
+        "public/microphones/bnk-b3-professional-microphone.jpg/sennheiser-ew-500-945-g4-wireless-vocal-set-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "sennheiser-saxophone-mic-professional-woodwind-amplification",
+      "title": "Sennheiser Saxophone Mic - Professional Woodwind Amplification",
+      "source_url": "https://www.citysounds.co.ke/product/sennheiser-saxophone-mic-professional-woodwind-amplification/",
+      "downloaded_files": [
+        "public/microphones/bnk-b3-professional-microphone.jpg/sennheiser-saxophone-mic-professional-woodwind-amplification-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "sennheiser-skm-9000-dual-channel-wireless-microphone-system",
+      "title": "Sennheiser SKM 9000 Dual Channel Wireless Microphone system",
+      "source_url": "https://avenuesounds.co.ke/product/sennheiser-skm-9000-dual-channel-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "sennheiser-skm9900-professional-wireless-microphone-system",
+      "title": "Sennheiser SKM9900 Professional Wireless Microphone System",
+      "source_url": "https://www.citysounds.co.ke/product/sennheiser-skm9900-professional-wireless-microphone-system/",
+      "downloaded_files": [
+        "public/microphones/bnk-b3-professional-microphone.jpg/sennheiser-skm9900-professional-wireless-microphone-system-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "serenity-srx715-professional-15-inch-loudspeaker-pair",
+      "title": "Serenity SRX715 Professional 15-Inch Loudspeaker Pair",
+      "source_url": "https://avenuesounds.co.ke/product/serenity-srx715-professional-15-inch-loudspeaker-pair/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "shure-beta-58a-blx-wireless-combo-system",
+      "title": "SHURE BETA 58A BLX Wireless Combo System",
+      "source_url": "https://www.citysounds.co.ke/product/shure-beta-58a-blx-wireless-combo-system/",
+      "downloaded_files": [
+        "public/microphones/bnk-b3-professional-microphone.jpg/shure-beta-58a-blx-wireless-combo-system-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "shure-glxd9-dual-wireless-microphone-system",
+      "title": "Shure GLXD9 Dual Wireless Microphone System",
+      "source_url": "https://avenuesounds.co.ke/product/shure-glxd9-dual-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "shure-glxd9-dual-wireless-microphone-system-clear-audio",
+      "title": "Shure GLXD9 Dual Wireless Microphone System | Clear Audio",
+      "source_url": "https://avenuesounds.co.ke/product/shure-glxd9-dual-wireless-microphone-system-clear-audio/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "shure-pga58-dynamic-vocal-microphone-with-cable-and-clip",
+      "title": "Shure PGA58 Dynamic Vocal Microphone with Cable and Clip",
+      "source_url": "https://avenuesounds.co.ke/product/shure-pga58-dynamic-vocal-microphone-with-cable-and-clip/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "shure-rechargeable-wireless-microphones",
+      "title": "Shure rechargeable wireless microphones",
+      "source_url": "https://avenuesounds.co.ke/product/shure-rechargeable-wireless-microphones/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "shure-sh-300g-wireless-microphone-system",
+      "title": "Shure SH-300G wireless microphone system.",
+      "source_url": "https://avenuesounds.co.ke/product/shure-sh-300g-wireless-microphone-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "shure-sv100-dynamic-microphone-affordable-handheld-vocal-mic",
+      "title": "Shure SV100 Dynamic Microphone | Affordable Handheld Vocal Mic",
+      "source_url": "https://avenuesounds.co.ke/product/shure-sv100-dynamic-microphone-affordable-handheld-vocal-mic/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "shure-ur-6800-professional-wireless-microphone",
+      "title": "Shure UR-6800 Professional Wireless Microphone",
+      "source_url": "https://avenuesounds.co.ke/product/shure-ur-6800-professional-wireless-microphone/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "smx-1200-12-channel-professional-audio-mixer-console",
+      "title": "SMX-1200 12-Channel Professional Audio Mixer Console",
+      "source_url": "https://avenuesounds.co.ke/product/smx-1200-12-channel-professional-audio-mixer-console/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "smx-2400-24-channel-analog-mixer-with-bluetooth-usb",
+      "title": "SMX-2400 24-Channel Analog Mixer with Bluetooth & USB",
+      "source_url": "https://avenuesounds.co.ke/product/smx-2400-24-channel-analog-mixer-with-bluetooth-and-usb/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "soontran-ss1-12-portable-active-karaoke-speaker-system",
+      "title": "Soontran SS1-12 Portable Active Karaoke Speaker System",
+      "source_url": "https://avenuesounds.co.ke/product/soontran-ss1-12-portable-active-karaoke-speaker-system/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "soundcraft-gt-1602fx-16-channel-professional-mixing-console",
+      "title": "Soundcraft GT-1602FX 16-Channel Professional Mixing Console",
+      "source_url": "https://avenuesounds.co.ke/product/soundcraft-gt-1602fx-16-channel-professional-mixing-console/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "soundking-10-inch-professional-loudspeaker-high-performance-pa-speaker",
+      "title": "Soundking 10-Inch Professional Loudspeaker | High-Performance PA Speaker",
+      "source_url": "https://avenuesounds.co.ke/product/soundking-10-inch-professional-loudspeaker-high-performance-pa-speaker/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "soundking-df029-double-braced-keyboard-stand-heavy-duty-support",
+      "title": "Soundking DF029 Double Braced Keyboard Stand | Heavy Duty Support",
+      "source_url": "https://avenuesounds.co.ke/product/soundking-df029-double-braced-keyboard-stand-heavy-duty-support/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "tama-5pc-complete-drumset-kit-professional-grade-percussion",
+      "title": "Tama 5PC Complete Drumset Kit - Professional Grade Percussion",
+      "source_url": "https://www.citysounds.co.ke/product/tama-5pc-complete-drumset-kit-professional-grade-percussion/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/tama-5pc-complete-drumset-kit-professional-grade-percussion-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "tg-30-bass-combo-amplifier",
+      "title": "TG-30 Bass Combo Amplifier",
+      "source_url": "https://avenuesounds.co.ke/product/tg-30-bass-combo-amplifier/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "vibrant-red-plastic-cowbell-crisp-latin-percussion-sound",
+      "title": "Vibrant Red Plastic Cowbell - Crisp Latin Percussion Sound",
+      "source_url": "https://www.citysounds.co.ke/product/vibrant-red-plastic-cowbell-crisp-latin-percussion-sound/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/vibrant-red-plastic-cowbell-crisp-latin-percussion-sound-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "wireless-4-channel-audio-mixer-set-with-dual-microphones-pro-audio",
+      "title": "Wireless 4-Channel Audio Mixer Set with Dual Microphones | Pro Audio",
+      "source_url": "https://avenuesounds.co.ke/product/wireless-4-channel-audio-mixer-set-with-dual-microphones-pro-audio/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "yamaha-5-string-active-bass-guitar-studio-professional-grade",
+      "title": "Yamaha 5-String Active Bass Guitar | Studio Professional Grade",
+      "source_url": "https://www.citysounds.co.ke/product/yamaha-5-string-active-bass-guitar-studio-professional-grade/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/yamaha-5-string-active-bass-guitar-studio-professional-grade-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "yamaha-kv80-8-channel-powered-mixer-professional-audio-console",
+      "title": "Yamaha KV80 8-Channel Powered Mixer | Professional Audio Console",
+      "source_url": "https://avenuesounds.co.ke/product/yamaha-kv80-8-channel-powered-mixer-professional-audio-console/",
+      "downloaded_files": [],
+      "image_source_urls": [],
+      "failures": [
+        "IndexError: list index out of range"
+      ]
+    },
+    {
+      "product_id": "yamaha-stage-custom",
+      "title": "Yamaha Stage Custom",
+      "source_url": "https://www.citysounds.co.ke/product/yamaha-stage-custom/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/yamaha-stage-custom-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    },
+    {
+      "product_id": "yamaha-yrs-23-soprano-recorder-beginner-music-instrument",
+      "title": "Yamaha YRS-23 Soprano Recorder - Beginner Music Instrument",
+      "source_url": "https://www.citysounds.co.ke/product/yamaha-yrs-23-soprano-recorder-beginner-music-instrument/",
+      "downloaded_files": [
+        "public/audio-accessories/fbq3102hd-graphic-equalizer.png/yamaha-yrs-23-soprano-recorder-beginner-music-instrument-2.jpg"
+      ],
+      "image_source_urls": [
+        "https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg",
+        "https://www.citysounds.co.ke/assets/index-BNB6N5JW.js"
+      ],
+      "failures": [
+        "Image download failed: https://res.cloudinary.com/dktxctkae/image/upload/v1786516017/citysounds/site/hero_fb8d6d9f63.jpg"
+      ]
+    }
+  ]
+}
