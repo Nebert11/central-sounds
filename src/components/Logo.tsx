@@ -13,7 +13,7 @@ export default function Logo({ variant = 'dark', className = '' }: LogoProps) {
       aria-label="Central Sounds home"
     >
       <img
-        src={`${import.meta.env.BASE_URL}${variant === 'light' ? 'logo-light.png' : 'logo.png'}`}
+        src={`${import.meta.env.BASE_URL}images/logos/${variant === 'light' ? 'logo-light.png' : 'logo.png'}`}
         alt="Central Sounds — Your Sound, Our Passion"
         className="block w-full h-auto object-contain"
       />
