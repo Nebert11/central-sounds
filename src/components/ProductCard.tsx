@@ -35,19 +35,21 @@ export default function ProductCard({ product }: ProductCardProps) {
         </p>
 
         <div className="flex flex-col gap-2">
-          <span className="text-sm font-semibold text-gray-700">
-            {product.price ? formatPrice(product.price) : 'Contact us for price'}
-          </span>
-          <a
-            href={whatsappProductLink(product.name)}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`Ask about ${product.name} on WhatsApp`}
-            className="flex items-center justify-center gap-1.5 w-full h-9 rounded-full bg-[#25D366] text-white hover:bg-[#1ebe57] transition-colors"
-          >
-            <WhatsAppIcon className="w-5 h-5" />
-            <span className="text-xs font-semibold">WhatsApp</span>
-          </a>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+            <span className="text-sm font-semibold text-gray-700">
+              {product.price ? formatPrice(product.price) : 'Contact us for price'}
+            </span>
+            <a
+              href={whatsappProductLink(product.name)}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Ask about ${product.name} on WhatsApp`}
+              className="flex items-center justify-center gap-1.5 w-full sm:w-auto h-9 px-3 rounded-xl sm:rounded-full bg-[#25D366] text-white hover:bg-[#1ebe57] transition-colors shrink-0"
+            >
+              <WhatsAppIcon className="w-5 h-5" />
+              <span className="text-xs font-semibold">WhatsApp</span>
+            </a>
+          </div>
           <Link
             to={`/products/${product.id}`}
             className="flex items-center justify-center gap-1 text-sm font-semibold text-[#E50914] hover:text-[#c40812] transition-colors"

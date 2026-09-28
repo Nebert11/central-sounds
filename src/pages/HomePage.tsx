@@ -41,13 +41,13 @@ export default function HomePage() {
       />
 
       <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-[#0A0A0A]">
-        <div className="absolute inset-0">
+        <div className="absolute inset-y-0 right-0 w-full sm:w-3/5 lg:w-1/2">
           <img
-            src="https://images.pexels.com/photos/39204570/pexels-photo-39204570.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-            alt="Concert stage with professional audio equipment"
-            className="w-full h-full object-cover opacity-40"
+            src="/images/about/pa-stack.png"
+            alt="Full line-array PA speaker stack with mixer, wireless mics, and amplifiers"
+            className="w-full h-full object-cover object-right opacity-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/20 to-transparent" />
         </div>
 
         <div className="relative max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">

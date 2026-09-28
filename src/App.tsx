@@ -7,7 +7,7 @@ import HomePage from '@/pages/HomePage';
 import ProductsPage from '@/pages/ProductsPage';
 import ProductDetailsPage from '@/pages/ProductDetailsPage';
 import AboutPage from '@/pages/AboutPage';
-import ServicesPage from '@/pages/ServicesPage';
+// import ServicesPage from '@/pages/ServicesPage';
 import ContactPage from '@/pages/ContactPage';
 import FaqPage from '@/pages/FaqPage';
 import NotFoundPage from '@/pages/NotFoundPage';
@@ -24,7 +24,7 @@ function App() {
             <Route path="/products" element={<ProductsPage />} />
             <Route path="/products/:id" element={<ProductDetailsPage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/services" element={<ServicesPage />} />
+            {/* <Route path="/services" element={<ServicesPage />} /> */}
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FaqPage />} />
             <Route path="*" element={<NotFoundPage />} />

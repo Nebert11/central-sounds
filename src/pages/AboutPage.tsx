@@ -52,13 +52,13 @@ export default function AboutPage() {
       />
 
       <section className="relative bg-[#0A0A0A] text-white pt-28 lg:pt-36 pb-20 overflow-hidden">
-        <div className="absolute inset-0">
+        <div className="absolute inset-y-0 right-0 w-full sm:w-3/5 lg:w-1/2">
           <img
             src="https://images.pexels.com/photos/34594386/pexels-photo-34594386.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             alt="Professional audio equipment rack with stage lighting"
-            className="w-full h-full object-cover opacity-25"
+            className="w-full h-full object-cover object-right opacity-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/20 to-transparent" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
@@ -85,7 +85,7 @@ export default function AboutPage() {
                   loading="lazy"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 hidden sm:block w-32 h-32 bg-white rounded-2xl flex items-center justify-center shadow-xl p-3">
+              <div className="absolute -bottom-6 -right-6 hidden sm:flex w-32 h-32 bg-white rounded-2xl items-center justify-center shadow-xl p-3">
                 <img
                   src={`${import.meta.env.BASE_URL}logo.png`}
                   alt="Central Sounds icon"

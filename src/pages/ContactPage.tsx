@@ -71,13 +71,13 @@ Message: ${form.message || ''}`;
       />
 
       <section className="relative bg-[#0A0A0A] text-white pt-28 lg:pt-36 pb-20 overflow-hidden">
-        <div className="absolute inset-0">
+        <div className="absolute inset-y-0 right-0 w-full sm:w-3/5 lg:w-1/2">
           <img
             src="https://images.pexels.com/photos/39639240/pexels-photo-39639240.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             alt="Audio mixing console close-up"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover object-right opacity-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/20 to-transparent" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
