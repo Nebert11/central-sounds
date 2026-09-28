@@ -34,7 +34,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           {product.shortDescription}
         </p>
 
-        <div className="flex items-center justify-between gap-3 mb-3">
+        <div className="flex flex-col gap-2">
           <span className="text-sm font-semibold text-gray-700">
             {product.price ? formatPrice(product.price) : 'Contact us for price'}
           </span>
@@ -43,20 +43,19 @@ export default function ProductCard({ product }: ProductCardProps) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={`Ask about ${product.name} on WhatsApp`}
-            className="flex items-center gap-1.5 pl-2 pr-3 h-9 rounded-full bg-[#25D366] text-white hover:bg-[#1ebe57] transition-colors shrink-0"
+            className="flex items-center justify-center gap-1.5 w-full h-9 rounded-full bg-[#25D366] text-white hover:bg-[#1ebe57] transition-colors"
           >
             <WhatsAppIcon className="w-5 h-5" />
             <span className="text-xs font-semibold">WhatsApp</span>
           </a>
+          <Link
+            to={`/products/${product.id}`}
+            className="flex items-center justify-center gap-1 text-sm font-semibold text-[#E50914] hover:text-[#c40812] transition-colors"
+          >
+            View Details
+            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+          </Link>
         </div>
-
-        <Link
-          to={`/products/${product.id}`}
-          className="flex items-center justify-center gap-1 text-sm font-semibold text-[#E50914] hover:text-[#c40812] transition-colors"
-        >
-          View Details
-          <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-        </Link>
       </div>
     </div>
   );
