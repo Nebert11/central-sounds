@@ -1,5 +1,6 @@
 import { importedProducts } from './importedProducts';
 import { centralAudioProducts } from './centralAudioProducts';
+import { spectrumAudioProducts } from './spectrumAudioProducts';
 
 export interface Product {
   id: string;
@@ -1346,6 +1347,7 @@ export const products: Product[] = [
   ...baseProducts,
   ...importedProducts.filter(dedupeAgainstKnown),
   ...centralAudioProducts.filter(dedupeAgainstKnown),
+  ...spectrumAudioProducts.filter(dedupeAgainstKnown),
 ];
 
 export function getProductById(id: string): Product | undefined {

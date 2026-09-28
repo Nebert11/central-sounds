@@ -57,7 +57,7 @@ export default function ServicesPage() {
       <section className="relative bg-[#0A0A0A] text-white pt-28 lg:pt-36 pb-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/7494200/pexels-photo-7494200.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            src="https://images.pexels.com/photos/34585133/pexels-photo-34585133.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             alt="Sound engineer at live concert"
             className="w-full h-full object-cover opacity-25"
           />

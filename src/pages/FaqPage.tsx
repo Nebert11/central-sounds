@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { ChevronDown, MessageCircle } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import Seo from '@/components/Seo';
 import CTASection from '@/components/CTASection';
+import WhatsAppIcon from '@/components/WhatsAppIcon';
 import { siteConfig, whatsappLink } from '@/config/site';
 
 const faqs = [
@@ -52,7 +53,7 @@ export default function FaqPage() {
       <section className="relative bg-[#0A0A0A] text-white pt-28 lg:pt-36 pb-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/26100254/pexels-photo-26100254.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            src="https://images.pexels.com/photos/29271204/pexels-photo-29271204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             alt="Audio equipment knobs"
             className="w-full h-full object-cover opacity-20"
           />
@@ -113,7 +114,7 @@ export default function FaqPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#E50914] text-white font-semibold rounded-lg hover:bg-[#c40812] transition-colors"
             >
-              <MessageCircle className="w-5 h-5" />
+              <WhatsAppIcon className="w-5 h-5" />
               Chat on WhatsApp
             </a>
           </div>

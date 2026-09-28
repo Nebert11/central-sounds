@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, MessageCircle, Phone } from 'lucide-react';
+import { ArrowRight, Phone } from 'lucide-react';
 import { siteConfig, whatsappLink } from '@/config/site';
+import WhatsAppIcon from './WhatsAppIcon';
 
 interface CTASectionProps {
   title?: string;
@@ -24,7 +25,7 @@ export default function CTASection({
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-7 py-3.5 bg-[#E50914] text-white font-semibold rounded-lg hover:bg-[#c40812] transition-colors duration-200 shadow-lg"
             >
-              <MessageCircle className="w-5 h-5" />
+              <WhatsAppIcon className="w-5 h-5" />
               WhatsApp Us
             </a>
             <a

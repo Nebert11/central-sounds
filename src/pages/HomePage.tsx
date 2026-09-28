@@ -3,6 +3,7 @@ import { ArrowRight, Headphones, ShieldCheck, Headset, Volume2 } from 'lucide-re
 import Seo from '@/components/Seo';
 import CTASection from '@/components/CTASection';
 import ProductCard from '@/components/ProductCard';
+import BrandMarquee from '@/components/BrandMarquee';
 import { categories as productCategories, getFeaturedProducts } from '@/data/products';
 import { siteConfig } from '@/config/site';
 
@@ -42,7 +43,7 @@ export default function HomePage() {
       <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-[#0A0A0A]">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/30831640/pexels-photo-30831640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            src="https://images.pexels.com/photos/39204570/pexels-photo-39204570.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             alt="Concert stage with professional audio equipment"
             className="w-full h-full object-cover opacity-40"
           />
@@ -157,6 +158,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <BrandMarquee bg="bg-[#F5F5F5]" />
 
       <CTASection />
     </>

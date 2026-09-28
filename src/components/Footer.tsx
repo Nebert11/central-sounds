@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MessageCircle, MapPin, Facebook, Instagram, Youtube, Twitter, Clock } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Twitter, Clock } from 'lucide-react';
+import WhatsAppIcon from './WhatsAppIcon';
 import Logo from './Logo';
 import { siteConfig, whatsappLink } from '@/config/site';
 import { categories } from '@/data/products';
@@ -66,7 +67,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href={whatsappLink('Hello Central Sounds!')} target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                  <MessageCircle className="w-4 h-4 mt-0.5 text-[#E50914] shrink-0" />
+                  <WhatsAppIcon className="w-4 h-4 mt-0.5 shrink-0" />
                   <span>{siteConfig.whatsappDisplay}</span>
                 </a>
               </li>

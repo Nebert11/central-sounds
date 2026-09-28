@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Phone, Mail, MessageCircle, MapPin, Clock, Send, User } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Send, User } from 'lucide-react';
 import Seo from '@/components/Seo';
+import WhatsAppIcon from '@/components/WhatsAppIcon';
 import { siteConfig, whatsappLink } from '@/config/site';
 
 export default function ContactPage() {
@@ -44,7 +45,7 @@ Message: ${form.message || ''}`;
       href: `tel:${siteConfig.phone}`,
     },
     {
-      icon: MessageCircle,
+      icon: WhatsAppIcon,
       label: 'WhatsApp',
       value: siteConfig.whatsappDisplay,
       href: whatsappLink('Hello Central Sounds, I would like to inquire about your products and services.'),
@@ -72,7 +73,7 @@ Message: ${form.message || ''}`;
       <section className="relative bg-[#0A0A0A] text-white pt-28 lg:pt-36 pb-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/8132717/pexels-photo-8132717.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            src="https://images.pexels.com/photos/39639240/pexels-photo-39639240.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             alt="Audio mixing console close-up"
             className="w-full h-full object-cover opacity-20"
           />
@@ -193,7 +194,7 @@ Message: ${form.message || ''}`;
                     onClick={handleWhatsApp}
                     className="flex items-center justify-center gap-2 px-6 py-3.5 bg-[#E50914] text-white font-semibold rounded-lg hover:bg-[#c40812] transition-colors"
                   >
-                    <MessageCircle className="w-5 h-5" />
+                    <WhatsAppIcon className="w-5 h-5" />
                     Send via WhatsApp
                   </button>
                 </div>
@@ -202,7 +203,7 @@ Message: ${form.message || ''}`;
 
             <div className="lg:col-span-2 flex flex-col gap-6">
               <div className="bg-[#0A0A0A] rounded-2xl p-6 lg:p-8 text-white flex flex-col justify-center">
-                <MessageCircle className="w-12 h-12 text-[#25D366] mb-4" />
+                <WhatsAppIcon className="w-12 h-12 mb-4" />
                 <h3 className="text-2xl font-extrabold mb-2">Need help choosing the right equipment?</h3>
                 <p className="text-gray-400 mb-6 leading-relaxed">
                   Talk to {siteConfig.name} on WhatsApp. Our team is ready to help you find the perfect audio solution.
@@ -213,7 +214,7 @@ Message: ${form.message || ''}`;
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 px-6 py-3.5 bg-[#25D366] text-white font-bold rounded-lg hover:bg-[#1da851] transition-colors"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <WhatsAppIcon className="w-5 h-5" />
                   Chat on WhatsApp
                 </a>
               </div>

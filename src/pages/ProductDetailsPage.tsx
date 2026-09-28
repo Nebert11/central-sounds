@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, MessageCircle, Phone, Mail, Check, ZoomIn, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Phone, Mail, Check, ZoomIn, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import Seo from '@/components/Seo';
 import ProductCard from '@/components/ProductCard';
+import WhatsAppIcon from '@/components/WhatsAppIcon';
 import { getProductById, getRelatedProducts, formatPrice } from '@/data/products';
 import { siteConfig, whatsappProductLink } from '@/config/site';
 
@@ -166,7 +167,7 @@ export default function ProductDetailsPage() {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-[#E50914] text-white text-base font-bold rounded-lg hover:bg-[#c40812] transition-all duration-200 shadow-lg hover:shadow-xl"
                 >
-                  <MessageCircle className="w-5 h-5" />
+                  <WhatsAppIcon className="w-5 h-5" />
                   Order via WhatsApp
                 </a>
 

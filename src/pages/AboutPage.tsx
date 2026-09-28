@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Volume2, Users, Award, Heart } from 'lucide-react';
+import { ArrowRight, Volume2, Users, Award, Heart, Target, Eye } from 'lucide-react';
 import Seo from '@/components/Seo';
 import CTASection from '@/components/CTASection';
+import BrandMarquee from '@/components/BrandMarquee';
 import { siteConfig } from '@/config/site';
 
 const values = [
@@ -27,6 +28,21 @@ const values = [
   },
 ];
 
+const goals = [
+  {
+    icon: Target,
+    title: 'Mission',
+    description: `We are committed to delivering high-quality professional sound equipment, audio solutions, and technical services that meet the needs of churches, events, and institutions.`,
+  },
+  {
+    icon: Eye,
+    title: 'Vision',
+    description: `To become a leading and trusted sound and audio solutions provider in Kenya, recognized for quality products, innovation, professionalism, and exceptional customer satisfaction.`,
+  },
+];
+
+const coreValues = ['Quality', 'Customer Satisfaction', 'Professionalism', 'Innovation', 'Integrity', 'Reliability'];
+
 export default function AboutPage() {
   return (
     <>
@@ -38,8 +54,8 @@ export default function AboutPage() {
       <section className="relative bg-[#0A0A0A] text-white pt-28 lg:pt-36 pb-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/1534/man-person-technology-music.jpg?auto=compress&cs=tinysrgb&h=650&w=940"
-            alt="Sound engineer at mixing console"
+            src="https://images.pexels.com/photos/34594386/pexels-photo-34594386.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Professional audio equipment rack with stage lighting"
             className="w-full h-full object-cover opacity-25"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/40" />
@@ -61,30 +77,55 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="relative">
-              <div className="rounded-2xl overflow-hidden shadow-xl">
+              <div className="rounded-2xl overflow-hidden shadow-xl bg-white">
                 <img
-                  src="https://images.pexels.com/photos/36269938/pexels-photo-36269938.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                  alt="Audio engineer working at mixing console"
+                  src={`${import.meta.env.BASE_URL}images/about/pa-stack.png`}
+                  alt="Full line-array PA speaker stack with mixer, wireless mics, and amplifiers"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 hidden sm:block w-32 h-32 bg-[#E50914] rounded-2xl flex items-center justify-center shadow-xl">
-                <Volume2 className="w-16 h-16 text-white" />
+              <div className="absolute -bottom-6 -right-6 hidden sm:block w-32 h-32 bg-white rounded-2xl flex items-center justify-center shadow-xl p-3">
+                <img
+                  src={`${import.meta.env.BASE_URL}logo.png`}
+                  alt="Central Sounds icon"
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
             <div>
               <h2 className="text-3xl font-extrabold text-black mb-6">Who We Are</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                {siteConfig.name} was founded with a simple mission: to make professional-quality audio equipment accessible to everyone — from touring professionals to home studio enthusiasts, from event planners to houses of worship.
-              </p>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                We specialize in a full range of audio products including speakers, subwoofers, amplifiers, mixers, microphones, DJ equipment, PA systems, and audio accessories. Our catalog is carefully curated to include only equipment that meets our high standards for performance, reliability, and value.
-              </p>
               <p className="text-gray-600 leading-relaxed">
-                What sets us apart is not just the products we sell, but the expertise and personal service we provide. We take the time to understand your needs and help you find the right equipment for your specific situation.
+                Founded with a singular vision — to empower musicians, producers, and audio engineers with world-class sonic tools — {siteConfig.name} has quickly grown into a premier destination for professional audio equipment. Our journey began from a deep-rooted passion for flawless sound reproduction and a frustration with the lack of accessible, high-tier gear for creators who refuse to compromise on quality.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 lg:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <span className="text-sm font-bold text-[#E50914] uppercase tracking-wider">We Are The Best</span>
+            <h2 className="text-3xl lg:text-4xl font-extrabold text-black mt-2">Our Goals</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            {goals.map((g) => (
+              <div key={g.title} className="p-6 bg-[#F5F5F5] rounded-2xl hover:bg-white hover:shadow-lg border border-transparent hover:border-gray-100 transition-all duration-300">
+                <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-[#E50914] mb-4">
+                  <g.icon className="w-7 h-7 text-white" />
+                </div>
+                <h3 className="text-lg font-bold text-black mb-2">{g.title}</h3>
+                <p className="text-sm text-gray-500 leading-relaxed">{g.description}</p>
+              </div>
+            ))}
+          </div>
+          <div className="flex flex-wrap justify-center gap-3">
+            {coreValues.map((cv) => (
+              <span key={cv} className="px-4 py-2 rounded-full bg-[#F5F5F5] text-sm font-semibold text-black border border-gray-200">
+                {cv}
+              </span>
+            ))}
           </div>
         </div>
       </section>
@@ -108,14 +149,15 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <BrandMarquee />
 
       <section className="py-16 bg-[#F5F5F5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-3xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
             <div className="relative min-h-[300px]">
               <img
-                src="https://images.pexels.com/photos/4218027/pexels-photo-4218027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                alt="Live concert with professional sound system"
+                src="https://images.pexels.com/photos/20903613/pexels-photo-20903613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                alt="Crowd in front of loudspeakers at a live concert"
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
               />

@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { Menu, X, MessageCircle } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Logo from './Logo';
+import WhatsAppIcon from './WhatsAppIcon';
 import { whatsappLink } from '@/config/site';
 
 const navLinks = [
@@ -102,7 +103,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-[#e40024] px-5 py-3 text-base font-bold text-white transition-colors duration-200 hover:bg-[#bd001d]"
           >
-            <MessageCircle className="w-5 h-5" />
+            <WhatsAppIcon className="w-5 h-5" />
             Talk To Us
           </a>
         </div>
