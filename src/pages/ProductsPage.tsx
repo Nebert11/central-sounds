@@ -58,62 +58,72 @@ export default function ProductsPage() {
 
       <section className="py-8 lg:py-12 bg-[#F5F5F5] min-h-[50vh]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row gap-4 mb-8">
-            <div className="relative flex-1">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 mb-6">
+            <SlidersHorizontal className="w-5 h-5 text-gray-500 shrink-0" />
+            <div className="flex gap-2">
+              <button
+                onClick={() => handleCategoryChange('All')}
+                className={`px-4 py-2 text-sm font-semibold rounded-lg whitespace-nowrap transition-colors ${
+                  selectedCategory === 'All'
+                    ? 'bg-[#E50914] text-white'
+                    : 'bg-white text-gray-700 hover:bg-gray-100'
+                }`}
+              >
+                All
+              </button>
+              {categories.map((cat) => (
+                <button
+                  key={cat}
+                  onClick={() => handleCategoryChange(cat)}
+                  className={`px-4 py-2 text-sm font-semibold rounded-lg whitespace-nowrap transition-colors ${
+                    selectedCategory === cat
+                      ? 'bg-[#E50914] text-white'
+                      : 'bg-white text-gray-700 hover:bg-gray-100'
+                  }`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+            <p className="text-sm text-gray-500">
+              Showing {filtered.length} {filtered.length === 1 ? 'product' : 'products'}
+              {selectedCategory !== 'All' && ` in ${selectedCategory}`}
+              {search && (
+                <>
+                  {' '}
+                  for "<span className="font-semibold text-black">{search}</span>"
+                </>
+              )}
+            </p>
+
+            <div className="relative w-full sm:w-80 lg:w-96 group">
+              <Search
+                className={`absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 transition-colors duration-200 ${
+                  search ? 'text-[#E50914]' : 'text-gray-400 group-focus-within:text-[#E50914]'
+                }`}
+              />
               <input
                 type="text"
-                placeholder="Search products..."
+                placeholder="Search by name, category, or description..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-lg text-sm font-medium text-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#E50914] focus:border-transparent"
+                className="w-full pl-12 pr-11 py-3 bg-white border border-gray-200 rounded-xl text-sm font-medium text-black placeholder:text-gray-400 shadow-sm transition-all duration-200 hover:border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#E50914]/40 focus:border-[#E50914]"
                 aria-label="Search products"
               />
               {search && (
                 <button
                   onClick={() => setSearch('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-gray-400 hover:text-black"
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1.5 rounded-full text-gray-400 hover:text-black hover:bg-gray-100 transition-colors"
                   aria-label="Clear search"
                 >
-                  <X className="w-5 h-5" />
+                  <X className="w-4 h-4" />
                 </button>
               )}
             </div>
-
-            <div className="flex items-center gap-2 overflow-x-auto pb-1">
-              <SlidersHorizontal className="w-5 h-5 text-gray-500 shrink-0" />
-              <div className="flex gap-2">
-                <button
-                  onClick={() => handleCategoryChange('All')}
-                  className={`px-4 py-2 text-sm font-semibold rounded-lg whitespace-nowrap transition-colors ${
-                    selectedCategory === 'All'
-                      ? 'bg-[#E50914] text-white'
-                      : 'bg-white text-gray-700 hover:bg-gray-100'
-                  }`}
-                >
-                  All
-                </button>
-                {categories.map((cat) => (
-                  <button
-                    key={cat}
-                    onClick={() => handleCategoryChange(cat)}
-                    className={`px-4 py-2 text-sm font-semibold rounded-lg whitespace-nowrap transition-colors ${
-                      selectedCategory === cat
-                        ? 'bg-[#E50914] text-white'
-                        : 'bg-white text-gray-700 hover:bg-gray-100'
-                    }`}
-                  >
-                    {cat}
-                  </button>
-                ))}
-              </div>
-            </div>
           </div>
-
-          <p className="text-sm text-gray-500 mb-6">
-            Showing {filtered.length} {filtered.length === 1 ? 'product' : 'products'}
-            {selectedCategory !== 'All' && ` in ${selectedCategory}`}
-          </p>
 
           {filtered.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

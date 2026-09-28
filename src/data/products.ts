@@ -1,4 +1,5 @@
 import { importedProducts } from './importedProducts';
+import { centralAudioProducts } from './centralAudioProducts';
 
 export interface Product {
   id: string;
@@ -336,7 +337,7 @@ const baseProducts: Product[] = [
   {
     id: 'tweeter-horn-flare',
     name: 'Tweeter Horn Flare',
-    category: 'Audio Accessories',
+    category: 'Tweeters',
     shortDescription: 'Durable NEXO-style horn flare for clear, controlled high-frequency projection.',
     description:
       'The Nexo Style Tweeter Horn Flare is designed for professional PA speakers, DJ cabinets, stage monitors, and custom speaker enclosures. Its molded plastic construction supports demanding audio use while helping reduce unwanted vibration and resonance. The universal rear bolt-on pattern is designed for compatible 1-inch compression drivers, and the wide-dispersion shape helps distribute high-frequency sound evenly.',
@@ -397,7 +398,7 @@ const baseProducts: Product[] = [
   {
     id: 'fbq3102hd-graphic-equalizer',
     name: 'FBQ3102HD High-Definition Stereo Graphic Equalizer',
-    category: 'Audio Accessories',
+    category: 'Crossovers',
     shortDescription: 'Stereo graphic equalizer for detailed frequency control in PA, live sound, and studio systems.',
     description:
       'The FBQ3102HD High-Definition Stereo Graphic Equalizer provides detailed control over the frequency response of PA systems, live sound rigs, studios, and professional audio setups. It can be used to tune a room, refine a mix, manage unwanted frequencies, and balance vocals, music, and other audio sources. Its stereo graphic design makes it a practical addition to professional audio racks and sound-check workflows.',
@@ -1334,14 +1335,17 @@ const baseProducts: Product[] = [
 const normalizeProductName = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 const productNames = new Set(baseProducts.map((product) => normalizeProductName(product.name)));
 
+const dedupeAgainstKnown = (product: Product) => {
+  const normalizedName = normalizeProductName(product.name);
+  if (productNames.has(normalizedName)) return false;
+  productNames.add(normalizedName);
+  return true;
+};
+
 export const products: Product[] = [
   ...baseProducts,
-  ...importedProducts.filter((product) => {
-    const normalizedName = normalizeProductName(product.name);
-    if (productNames.has(normalizedName)) return false;
-    productNames.add(normalizedName);
-    return true;
-  }),
+  ...importedProducts.filter(dedupeAgainstKnown),
+  ...centralAudioProducts.filter(dedupeAgainstKnown),
 ];
 
 export function getProductById(id: string): Product | undefined {

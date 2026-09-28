@@ -59,7 +59,6 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="flex min-h-[52px] items-center gap-1 rounded-lg bg-[#e40024] px-4 text-xs font-bold uppercase tracking-[0.10em] text-white transition-colors duration-200 hover:bg-[#bd001d]"
             >
-              {/* <MessageCircle className="w-4 h-4" /> */}
               Talk To Us
             </a>
           </div>
