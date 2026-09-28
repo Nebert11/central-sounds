@@ -7,15 +7,21 @@ import { products, categories } from '@/data/products';
 import { siteConfig } from '@/config/site';
 
 export default function ProductsPage() {
+  const PAGE_SIZE = 60;
   const [searchParams, setSearchParams] = useSearchParams();
   const categoryParam = searchParams.get('category') || 'All';
 
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(categoryParam);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => {
     setSelectedCategory(categoryParam);
   }, [categoryParam]);
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [search, selectedCategory]);
 
   const handleCategoryChange = (cat: string) => {
     setSelectedCategory(cat);
@@ -38,6 +44,9 @@ export default function ProductsPage() {
       return matchesSearch && matchesCategory;
     });
   }, [search, selectedCategory]);
+
+  const visibleProducts = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
 
   return (
     <>
@@ -97,7 +106,7 @@ export default function ProductsPage() {
 
           <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
             <p className="text-sm text-gray-500">
-              Showing {filtered.length} {filtered.length === 1 ? 'product' : 'products'}
+              Showing {visibleProducts.length} of {filtered.length} {filtered.length === 1 ? 'product' : 'products'}
               {selectedCategory !== 'All' && ` in ${selectedCategory}`}
               {search && (
                 <>
@@ -134,11 +143,23 @@ export default function ProductsPage() {
           </div>
 
           {filtered.length > 0 ? (
-            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
-              {filtered.map((product) => (
-                <ProductCard key={product.id} product={product} />
-              ))}
-            </div>
+            <>
+              <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
+                {visibleProducts.map((product) => (
+                  <ProductCard key={product.id} product={product} />
+                ))}
+              </div>
+              {hasMore && (
+                <div className="flex justify-center mt-10">
+                  <button
+                    onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+                    className="px-8 py-3.5 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors"
+                  >
+                    Load More Products
+                  </button>
+                </div>
+              )}
+            </>
           ) : (
             <div className="text-center py-20">
               <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center rounded-full bg-gray-200">

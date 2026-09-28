@@ -74,7 +74,7 @@ const baseProducts: Product[] = [
       { label: 'Power Supply', value: 'AC 100–240V, 50/60Hz' },
     ],
     price: 13500,
-    featured: true,
+    featured: false,
     relatedProducts: [],
   },
   {
@@ -166,7 +166,7 @@ const baseProducts: Product[] = [
       { label: 'Included', value: 'Protective case' },
     ],
     price: 65000,
-    featured: true,
+    featured: false,
     relatedProducts: [],
   },
   {
@@ -222,7 +222,7 @@ const baseProducts: Product[] = [
       { label: 'Applications', value: 'Public announcements and background audio in indoor and outdoor commercial spaces' },
     ],
     price: 7500,
-    featured: true,
+    featured: false,
     relatedProducts: [],
   },
   {
@@ -266,7 +266,7 @@ const baseProducts: Product[] = [
       { label: 'Net Weight', value: '2.5 kg' },
     ],
     price: 3000,
-    featured: false,
+    featured: true,
     relatedProducts: [],
   },
   {
@@ -424,7 +424,7 @@ const baseProducts: Product[] = [
       { label: 'Primary Function', value: 'Frequency response control and sound balancing' },
     ],
     price: 34300,
-    featured: false,
+    featured: true,
     relatedProducts: [],
   },
   {
@@ -584,7 +584,7 @@ const baseProducts: Product[] = [
       { label: 'Applications', value: 'Live sound, venues, churches, touring, and production' },
     ],
     price: 503720,
-    featured: false,
+    featured: true,
     relatedProducts: [],
   },
   {
