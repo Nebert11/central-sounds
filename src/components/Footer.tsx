@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Twitter, Clock } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 import WhatsAppIcon from './WhatsAppIcon';
 import Logo from './Logo';
 import { siteConfig, whatsappLink } from '@/config/site';
@@ -15,7 +15,7 @@ export default function Footer() {
             <p className="text-sm text-gray-400 leading-relaxed">
               {siteConfig.description}
             </p>
-            <div className="flex gap-3 pt-2">
+            {/* <div className="flex gap-3 pt-2">
               <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/10 hover:bg-[#E50914] transition-colors duration-200">
                 <Facebook className="w-4 h-4" />
               </a>
@@ -28,7 +28,7 @@ export default function Footer() {
               <a href={siteConfig.social.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/10 hover:bg-[#E50914] transition-colors duration-200">
                 <Twitter className="w-4 h-4" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>

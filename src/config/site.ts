@@ -8,8 +8,8 @@ export const siteConfig = {
   whatsapp: '0740212033',
   whatsappDisplay: '0740212033',
   email: 'centralsounds91@gmail.com',
-  address: '123 Audio Avenue, Sound District, City 12345',
-  addressShort: 'Sound District, City 12345',
+  address: 'Nairobi, Luthuli Avenue.',
+  addressShort: 'Luthuli Avenue, Nairobi',
   hours: 'Mon–Sat: 9:00 AM – 7:00 PM',
   social: {
     facebook: 'https://facebook.com/centralsounds',

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send, User } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 import Seo from '@/components/Seo';
 import WhatsAppIcon from '@/components/WhatsAppIcon';
 import { siteConfig, whatsappLink } from '@/config/site';
